@@ -27,7 +27,7 @@
     <nav class="nav">
         <div class="nav-menu flex-row">
             <div class="nav-brand">
-                <a href="#" class="text-gray">Blogger</a>
+                <a href="#" class="text-gray" onclick="window.location.reload(true)">Blogger</a>
             </div>
             <div class="toggle-collapse">
                 <div class="toggle-icons">
@@ -38,7 +38,7 @@
             <div>
                 <ul class="nav-items">
                     <li class="nav-link">
-                        <a href="#">Home</a>
+                        <a href="#" onclick="window.location.reload(true)">Home</a>
                     </li>
                     <li class="nav-link">
                         <a href="#category">Category</a>
@@ -50,13 +50,13 @@
                         <a href="#">Pages</a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">Contact Us</a>
+                        <a href="#about-us">Contact Us</a>
                     </li>
                 </ul>
             </div>
             <div class="social text-gray">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/tongsyquan" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/tongsyquan/" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
@@ -366,9 +366,9 @@
 
     <!----------------------- Footer ------------------------->
 
-    <footer class="footer">
+    <footer id="footer">
         <div class="container">
-            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+            <div id="about-us" data-aos="fade-right" data-aos-delay="200">
                 <h2>About us</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate cumque nam accusantium a
                     asperiores quia quas reprehenderit blanditiis saepe laboriosam?</p>

@@ -97,7 +97,7 @@ p{
     background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 9vh;
     overflow-x: hidden;
     transition: height 1s ease-in-out;
 }
@@ -111,7 +111,7 @@ p{
     top: 0%;
     width: 90%;
     cursor: pointer;
-    display: none;
+    display: none;  
 }
 
 .nav .toggle-collapse .toggle-icons{
@@ -126,12 +126,13 @@ p{
 }
 
 .collapse{
-    height: 40rem;
+    height: 30rem;
 }
 
 .nav .nav-items{
     display: flex;
     margin: 0;
+    align-items: center;
 }
 
 .nav .nav-items .nav-link{
